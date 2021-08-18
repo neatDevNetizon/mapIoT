@@ -1,0 +1,210 @@
+#map #info {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.filter_selector {
+	margin: 8px 0;
+	cursor: pointer;
+	clear: both;
+}
+
+.toggle {
+	float: left;
+	position: relative;
+	width: 32px;
+	height: 18px;
+	box-sizing: border-box;
+	margin-top: -2px;
+	margin-right: 4px;
+	background: none;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: background 0.5s;
+}
+.toggle::after {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	height: 12px;
+	width: 12px;
+	background: white;
+	border: 1px solid #333;
+	border-radius: 50%;
+	transition: left 0.5s, background 0.5s, border 0.5s;
+}
+.toggle.on {
+	background: white;
+}
+.toggle.on::after {
+	left: 14px;
+}
+.toggle.on.c810e7c::after {
+	background: #810e7c;
+	border: 1px solid #810e7c;
+}
+.toggle.on.c8856a7::after {
+	background: #8856a7;
+	border: 1px solid #8856a7;
+}
+.toggle.on.c8c96c6::after {
+	background: #8c96c6;
+	border: 1px solid #8c96c6;
+}
+.toggle.on.cb3cde3::after {
+	background: #b3cde3;
+	border: 1px solid #b3cde3;
+}
+
+.overlay, .mapbox-search-control {
+	width: 244px !important;
+}
+.mapbox-search-control input[type='text'] {
+	height: 30px !important;
+	padding-left: 26px !important;
+}
+.mapbox-search-control .search-icon-search {
+	top: 5px !important;
+	left: 4px !important;
+}
+.mapbox-search-control .search-pin-right * {
+	top: 5px !important;
+	right: 5px !important;
+}
+
+#info {
+	user-select: none;
+}
+.overlay {
+	width: 240px;
+}
+.mapbox-search-control input[type='text'] {
+	height: 30px !important;
+	padding-left: 26px !important;
+}
+.mapbox-search-control .search-icon-search {
+	top: 5px !important;
+	left: 4px !important;
+}
+.mapbox-search-control .search-pin-right * {
+	top: 5px !important;
+	right: 5px !important;
+}
+
+#panel_control.overlay {
+	top: 9px;
+	height: 32px;
+	width: 32px !important;
+	padding: 0;
+	/*background: url(../../../resources/glyphs/block-top-left.svg) no-repeat 8px 8px rgba(12,12,12,0.68);*/
+	background-size: 16px 16px;
+}
+#panel_control.overlay.closed {
+	/*background: url(../../../resources/glyphs/block-bottom-right.svg) no-repeat 8px 8px rgba(12,12,12,0.68);*/
+	background-size: 16px 16px;
+}
+#panel_control.overlay:hover {
+	cursor: pointer;
+	/*background: url(../../../resources/glyphs/block-top-left.svg) no-repeat 8px 8px #3b63ab;*/
+	background-size: 16px 16px;
+}
+#panel_control.overlay.closed:hover {
+	/*background: url(../../../resources/glyphs/block-bottom-right.svg) no-repeat 8px 8px #3b63ab;*/
+	background-size: 16px 16px;
+}
+#parallel.overlay {
+	left: 36px;
+	width: 213px;
+}
+.overlay.hidden {
+   display:none;
+}
+
+.keychip {
+	padding-left: 4px;
+	border-left: 14px solid #333;
+	margin-top: 1px;
+}
+#info a {
+	color: #CCC;
+}
+#info a:hover {
+	border-bottom: 1px dotted #CCC;
+}
+#map #info {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.mapboxgl-popup-anchor-top {
+	margin-top: -6px;
+	pointer-events: none;
+}
+.mapboxgl-ctrl-bottom-right {
+	z-index: 2000;
+}
+
+#info.overlay {
+	top: 43px;
+}
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+	max-width: 60vw;
+	padding-left: 16px;
+	text-indent: -12px;
+	line-height: 16px;
+}
+
+.toggle, .option-toggle.switch {
+	float: left;
+	position: relative;
+	width: 32px;
+	height: 18px;
+	box-sizing: border-box;
+	margin-top: -2px;
+	margin-right: 4px;
+	background: none;
+	border: 1px solid white;
+	border-radius: 10px;
+	transition: background 0.5s;
+}
+.toggle::after, .option-toggle.switch::after {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	height: 12px;
+	width: 12px;
+	background: white;
+	border: 1px solid #333;
+	border-radius: 50%;
+	transition: left 0.5s, background 0.5s, border 0.5s;
+}
+.toggle.on {
+	background: white;
+}
+.toggle.on::after {
+	left: 14px;
+}
+.option-toggle {
+	float: left;
+	font-weight: 400;
+}
+.option-toggle.left, .option-toggle.right {
+	cursor: pointer;
+}
+
+.option-toggle.switch {
+	margin: -2px 6px 0 6px;
+	background: white;
+	cursor: pointer;
+}
+.option-toggle-holder.left .option-toggle.switch::after {
+	background: #333;
+	border: 1px solid #333;
+}
+.option-toggle-holder.right .option-toggle.switch::after {
+	background: #333;
+	border: 1px solid #333;
+	left: 14px;
+}
